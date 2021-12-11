@@ -1,0 +1,56 @@
+body {
+    background-size: cover;
+}
+
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 2px 2px 20px #ff4a68;
+}
+
+#number_of_objects, #status {
+    font-size: 18px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#start {
+    animation-name: example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    color: black;
+    letter-spacing: 2;
+    font-size: 18px;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 3px 3px 38px rgb(0, 225, 255);
+    }
+
+    to {
+        box-shadow: 3px 3px 38px #ff4a68;
+    }
+}
+
+canvas {
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow: 5px 5px 5px white;
+}
+
+.copy_right_footer {
+    position: fixed;
+    color: #f5f5f5;
+    bottom: 0;
+    width: 100%;
+    background-color: #ff4a68;
+    line-height: 3;
+    text-align: center;
+    letter-spacing: 2;
+    box-shadow: 2px 2px 20px rgb(0, 225, 255);
+}
